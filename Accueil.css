@@ -1,0 +1,175 @@
+*{padding: 3px}
+body {
+	font-family: 'Hind', sans-serif;
+}
+h1{
+	font-weight: 900;
+	font-size: 29px;
+}
+h2 {
+	font-weight: 300;
+	margin-top: -30px;
+}
+h3 {
+	font-weight: bold;
+}
+h4 {
+	font-weight: 300;
+	font-size: 20px;
+}
+								/* NAVIGUATION*/
+nav {
+	
+	display: flex;
+	justify-content: space-between;
+	padding: 0px;
+}
+
+ul{
+	display: flex;
+	
+	font-size: 20px;
+	
+}
+
+
+
+li {
+	margin: 20px;
+	padding-right: 5px;
+	list-style-type: none;
+	text-align: center;
+
+}
+
+li a { text-decoration: none; color: black; padding-top:5px }
+
+li a:hover {
+	border-top: 5px solid blue ;
+	color: blue;
+}
+
+								/* TITRE*/
+
+
+
+
+
+							/* BARRE DE RECHERCHE*/
+
+.IconSize {
+	height: 50px;
+	width: 50px;
+}
+
+.localisation {
+	background-color: #E7ECEB;
+	border-radius: 10px 0px 0px 10px;
+	margin-right: -6px;
+
+
+}
+
+.loupe {
+
+	background-color: blue;
+	transform:scaleX(-1);
+	border-radius: 10px 0px 0px 10px;
+	cursor: pointer;
+	margin-left: -10px;
+}
+
+.loupe:hover {
+/*	background: linear-gradient(#A0A0A0, #D8CDCA);*/
+	background: repeating-linear-gradient(#A0A0A0, #D8CDCA 10px);
+
+}
+
+.recherche {
+	display: flex;
+	width: 400px;
+	border-radius: 10px;
+	}
+
+.research {
+	height: 56px;
+	width: 200px;
+	font-size: 18px;
+	color: black;
+	text-align: center;
+	border: none;
+	border-top: 2px solid rgba(216, 205, 202, 0.5);
+	border-bottom: 2px solid rgba(216, 205, 202, 0.5);
+}
+
+/*FILTRES*/
+
+.flex_filtres {
+	
+	border: 2px solid rgb(222,235,255);
+	border-radius: 10px 10px 10px 10px;
+	padding: 10px;
+	
+	
+
+}
+
+.text_filtres {
+	padding-left: 15px;
+	padding-bottom: 5px;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	font-weight: 800;
+
+}
+
+.filtres {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 25px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.box {
+	display: flex;
+	height: 40px;
+	margin-left: 50px;
+	transition: background-color 750ms;
+	cursor: pointer;
+}
+
+.filtres i {
+	border-right: 2px solid rgb(222,235,255);
+	padding: 12px;
+	padding-top: 20px;
+	margin: -10px;
+	border-radius: 10px;
+	margin-right: 5px;
+	background-color: rgb(222,235,255);
+}
+
+.box:hover {
+
+	background-color: rgb(222,235,255);
+}
+
+/*INFORMATIONS*/
+
+.flex_row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.logo_i {
+	padding: 8px;
+	margin-right: 15px;
+	border: 2px solid rgb(222,235,255);
+	border-radius: 50px;
+}
+
+/* GALERIE */
